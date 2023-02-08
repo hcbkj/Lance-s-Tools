@@ -1,0 +1,137 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="115">
+            <item index="0" class="java.lang.String" itemvalue="pypdf2" />
+            <item index="1" class="java.lang.String" itemvalue="python-Levenshtein" />
+            <item index="2" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="3" class="java.lang.String" itemvalue="paddlepaddle-gpu" />
+            <item index="4" class="java.lang.String" itemvalue="lap" />
+            <item index="5" class="java.lang.String" itemvalue="pycocotools" />
+            <item index="6" class="java.lang.String" itemvalue="paddledet" />
+            <item index="7" class="java.lang.String" itemvalue="bs4" />
+            <item index="8" class="java.lang.String" itemvalue="tabulate" />
+            <item index="9" class="java.lang.String" itemvalue="Wand" />
+            <item index="10" class="java.lang.String" itemvalue="pyclipper" />
+            <item index="11" class="java.lang.String" itemvalue="pycparser" />
+            <item index="12" class="java.lang.String" itemvalue="paddlepaddle" />
+            <item index="13" class="java.lang.String" itemvalue="pyasn1-modules" />
+            <item index="14" class="java.lang.String" itemvalue="patsy" />
+            <item index="15" class="java.lang.String" itemvalue="pyls-spyder" />
+            <item index="16" class="java.lang.String" itemvalue="tables" />
+            <item index="17" class="java.lang.String" itemvalue="trio" />
+            <item index="18" class="java.lang.String" itemvalue="mccabe" />
+            <item index="19" class="java.lang.String" itemvalue="pycryptodomex" />
+            <item index="20" class="java.lang.String" itemvalue="lxml" />
+            <item index="21" class="java.lang.String" itemvalue="comtypes" />
+            <item index="22" class="java.lang.String" itemvalue="pywin32" />
+            <item index="23" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="24" class="java.lang.String" itemvalue="daal4py" />
+            <item index="25" class="java.lang.String" itemvalue="Flask-SQLAlchemy" />
+            <item index="26" class="java.lang.String" itemvalue="cos-python-sdk-v5" />
+            <item index="27" class="java.lang.String" itemvalue="wsproto" />
+            <item index="28" class="java.lang.String" itemvalue="attrs" />
+            <item index="29" class="java.lang.String" itemvalue="cytoolz" />
+            <item index="30" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="31" class="java.lang.String" itemvalue="Mako" />
+            <item index="32" class="java.lang.String" itemvalue="Flask-Babel" />
+            <item index="33" class="java.lang.String" itemvalue="paddlenlp" />
+            <item index="34" class="java.lang.String" itemvalue="alembic" />
+            <item index="35" class="java.lang.String" itemvalue="brotlipy" />
+            <item index="36" class="java.lang.String" itemvalue="pycurl" />
+            <item index="37" class="java.lang.String" itemvalue="queuelib" />
+            <item index="38" class="java.lang.String" itemvalue="trio-websocket" />
+            <item index="39" class="java.lang.String" itemvalue="cffi" />
+            <item index="40" class="java.lang.String" itemvalue="pep8" />
+            <item index="41" class="java.lang.String" itemvalue="pycosat" />
+            <item index="42" class="java.lang.String" itemvalue="numpy" />
+            <item index="43" class="java.lang.String" itemvalue="opencv-python-headless" />
+            <item index="44" class="java.lang.String" itemvalue="mkl-fft" />
+            <item index="45" class="java.lang.String" itemvalue="selenium" />
+            <item index="46" class="java.lang.String" itemvalue="pyOpenSSL" />
+            <item index="47" class="java.lang.String" itemvalue="datashape" />
+            <item index="48" class="java.lang.String" itemvalue="pyreadline" />
+            <item index="49" class="java.lang.String" itemvalue="outcome" />
+            <item index="50" class="java.lang.String" itemvalue="python-lsp-jsonrpc" />
+            <item index="51" class="java.lang.String" itemvalue="Shapely" />
+            <item index="52" class="java.lang.String" itemvalue="black" />
+            <item index="53" class="java.lang.String" itemvalue="astor" />
+            <item index="54" class="java.lang.String" itemvalue="et-xmlfile" />
+            <item index="55" class="java.lang.String" itemvalue="dicttoxml" />
+            <item index="56" class="java.lang.String" itemvalue="sortedcontainers" />
+            <item index="57" class="java.lang.String" itemvalue="termcolor" />
+            <item index="58" class="java.lang.String" itemvalue="Flask-Migrate" />
+            <item index="59" class="java.lang.String" itemvalue="mpmath" />
+            <item index="60" class="java.lang.String" itemvalue="statsmodels" />
+            <item index="61" class="java.lang.String" itemvalue="paddle-serving-client" />
+            <item index="62" class="java.lang.String" itemvalue="pycryptodome" />
+            <item index="63" class="java.lang.String" itemvalue="webencodings" />
+            <item index="64" class="java.lang.String" itemvalue="inflection" />
+            <item index="65" class="java.lang.String" itemvalue="Pillow" />
+            <item index="66" class="java.lang.String" itemvalue="python-lsp-server" />
+            <item index="67" class="java.lang.String" itemvalue="huggingface-hub" />
+            <item index="68" class="java.lang.String" itemvalue="bce-python-sdk" />
+            <item index="69" class="java.lang.String" itemvalue="atomicwrites" />
+            <item index="70" class="java.lang.String" itemvalue="constantly" />
+            <item index="71" class="java.lang.String" itemvalue="easydict" />
+            <item index="72" class="java.lang.String" itemvalue="proxy-tools" />
+            <item index="73" class="java.lang.String" itemvalue="appdirs" />
+            <item index="74" class="java.lang.String" itemvalue="TBB" />
+            <item index="75" class="java.lang.String" itemvalue="conda-verify" />
+            <item index="76" class="java.lang.String" itemvalue="sentencepiece" />
+            <item index="77" class="java.lang.String" itemvalue="PyDispatcher" />
+            <item index="78" class="java.lang.String" itemvalue="anaconda-navigator" />
+            <item index="79" class="java.lang.String" itemvalue="bkcharts" />
+            <item index="80" class="java.lang.String" itemvalue="rarfile" />
+            <item index="81" class="java.lang.String" itemvalue="clyent" />
+            <item index="82" class="java.lang.String" itemvalue="navigator-updater" />
+            <item index="83" class="java.lang.String" itemvalue="wincertstore" />
+            <item index="84" class="java.lang.String" itemvalue="xlwings" />
+            <item index="85" class="java.lang.String" itemvalue="win-unicode-console" />
+            <item index="86" class="java.lang.String" itemvalue="cryptography" />
+            <item index="87" class="java.lang.String" itemvalue="fonttools" />
+            <item index="88" class="java.lang.String" itemvalue="anaconda-client" />
+            <item index="89" class="java.lang.String" itemvalue="PySocks" />
+            <item index="90" class="java.lang.String" itemvalue="shell" />
+            <item index="91" class="java.lang.String" itemvalue="cssselect" />
+            <item index="92" class="java.lang.String" itemvalue="fastapi-utils" />
+            <item index="93" class="java.lang.String" itemvalue="paddlehub" />
+            <item index="94" class="java.lang.String" itemvalue="async-generator" />
+            <item index="95" class="java.lang.String" itemvalue="mkl-service" />
+            <item index="96" class="java.lang.String" itemvalue="pathspec" />
+            <item index="97" class="java.lang.String" itemvalue="scikit-learn-intelex" />
+            <item index="98" class="java.lang.String" itemvalue="paddle-serving-app" />
+            <item index="99" class="java.lang.String" itemvalue="mypy-extensions" />
+            <item index="100" class="java.lang.String" itemvalue="crcmod" />
+            <item index="101" class="java.lang.String" itemvalue="llvmlite" />
+            <item index="102" class="java.lang.String" itemvalue="backports.weakref" />
+            <item index="103" class="java.lang.String" itemvalue="conda" />
+            <item index="104" class="java.lang.String" itemvalue="zict" />
+            <item index="105" class="java.lang.String" itemvalue="sip" />
+            <item index="106" class="java.lang.String" itemvalue="visualdl" />
+            <item index="107" class="java.lang.String" itemvalue="onnx" />
+            <item index="108" class="java.lang.String" itemvalue="pytest" />
+            <item index="109" class="java.lang.String" itemvalue="conda-build" />
+            <item index="110" class="java.lang.String" itemvalue="grpcio-tools" />
+            <item index="111" class="java.lang.String" itemvalue="paddle2onnx" />
+            <item index="112" class="java.lang.String" itemvalue="cefpython3" />
+            <item index="113" class="java.lang.String" itemvalue="munkres" />
+            <item index="114" class="java.lang.String" itemvalue="grpcio" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N801" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
