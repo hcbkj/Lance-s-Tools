@@ -127,6 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-.jpg/
-.png/
-.jpeg/
+
+# 其他需要屏蔽的部分
+/scripts/3.Requests爬虫/Requests库爬虫.assets/
+/scripts/3.Requests爬虫/爬虫提速/novel/
+/scripts/3.Requests爬虫/爬虫提速/video/
+*.jpg
+*.jpeg
+*.png
+*.m3u8
