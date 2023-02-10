@@ -3,6 +3,7 @@
 
 L = []
 
+
 def quchong(str):
     str_list = list(str)
     n = len(str_list)
@@ -18,7 +19,6 @@ def run():
     # str = input()
     strnum = '33440044005511998833112222990022229'
     quchong(strnum)
-
 
 
 if __name__ == '__main__':
