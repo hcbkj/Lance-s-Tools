@@ -9,7 +9,7 @@ from email.utils import formataddr
 def send_email(recipient, context, subject):
     # 构建邮件内容
     msg = MIMEText(context, "html", "utf-8")  # 内容
-    msg["From"] = formataddr(["申元昊", "sender@163.com"])  # 发件人及邮箱
+    msg["From"] = formataddr(["hcbkj", "sender@163.com"])  # 发件人及邮箱
     msg["to"] = recipient  # 目标邮箱
     msg["Subject"] = subject  # 主题
 
