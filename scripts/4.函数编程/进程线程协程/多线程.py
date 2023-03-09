@@ -16,18 +16,20 @@
 
 
 # 多线程
-from threading import Thread        # 线程类
+from threading import Thread  # 线程类
+
 
 # 实现多线程的第一种方法
 def func(name):
     for i in range(100):
         print(name, i)
 
+
 if __name__ == '__main__':
     # t = Thread(target=func)     # 创建线程并给线程安排任务
     # t.start()       # 开始执行该线程，实际上，只是给线路赋予了一个状态，表示可以开始了，具体的执行时间由cpu决定
 
-    t1 = Thread(target=func, args=("周杰伦",))     # 传参 args(,)必须是元组,因此,当args()里面只有一个参数的时候,要加上逗号,
+    t1 = Thread(target=func, args=("周杰伦",))  # 传参 args(,)必须是元组,因此,当args()里面只有一个参数的时候,要加上逗号,
     t1.start()
     t2 = Thread(target=func, args=("王力宏",))  # 传参 args(,)必须是元组,因此,当args()里面只有一个参数的时候,要加上逗号,
     t2.start()
