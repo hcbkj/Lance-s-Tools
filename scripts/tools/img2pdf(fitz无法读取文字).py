@@ -63,8 +63,7 @@ def data_read(pdf_path):
             doc = fitz.open(os.path.join(pdf_path, pdf_file))
             for item in doc:
                 content += item.get_text()
-            print('下面是文本内容:')
-            print(content)
+            print(f'文本内容:{content}')
             break
         else:
             print('文件类型不对')

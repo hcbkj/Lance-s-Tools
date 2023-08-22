@@ -3,14 +3,18 @@
 
 import sys
 import importlib
-import os
-import os.path
 from PyPDF2 import PdfFileReader, PdfFileWriter
 
 importlib.reload(sys)
 
 
-def MergePDF(pdf_lst, outfile):
+def merge_PDF(pdf_lst: list, outfile):
+    """
+    多个pdf合并为一个
+    :param pdf_lst: 列表，每一个元素为一个需要合并的pdf路径
+    :param outfile: 多个pdf合并之后的新文件路径
+    :return:
+    """
     output = PdfFileWriter()
     outputPages = 0
     pdf_fileName = pdf_lst
@@ -47,7 +51,7 @@ if __name__ == '__main__':
                r"D:\工作相关\需求\阳光保险材料整理\test\龙江银行股份有限公司\C832520201218902496\assign_debt_duplicate.pdf"]
 
     out = r"D:\工作相关\需求\阳光保险材料整理\test\龙江银行股份有限公司\C832520201218902496\合并文件.pdf"  # 合并后文件名称
-    MergePDF(pdf_lst, out)
+    merge_PDF(pdf_lst, out)
 
 # import os
 # from PyPDF2 import PdfFileMerger
